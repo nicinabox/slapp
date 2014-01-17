@@ -81,8 +81,13 @@ Homepage: http://freedesktop.org/wiki/Software/ConsoleKit
     end
   end
 
-  it "parses the aalib description" do
-    desc = <<-desc
+  describe 'aalib' do
+    before do
+      @aalib = @parser.packages.select { |pkg| pkg[:name] == 'aalib' }.first
+    end
+
+    it "parses the original description" do
+      original_desc = <<-desc
 aalib (ASCII Art library)
 
 AA-lib is an ASCII art graphics
@@ -94,7 +99,20 @@ the example to the right :^)
 The developers of AA-lib are
 Jan Hubicka, Thomas A. K. Kjaer,
 Tim Newsome, and Kamil Toman.
-    desc
+      desc
+
+      @aalib[:original_description].should == original_desc.strip
+    end
+
+    it 'parses the description' do
+      desc = <<-desc
+aalib (ASCII Art library)
+
+AA-lib is an ASCII art graphics library.  Internally, the AA-lib API is similar to other graphics libraries, but it renders the the output into ASCII art (like the example to the right :^) The developers of AA-lib are Jan Hubicka, Thomas A. K. Kjaer, Tim Newsome, and Kamil Toman.
+      desc
+
+      @aalib[:description].should == desc.strip
+    end
   end
 
 end

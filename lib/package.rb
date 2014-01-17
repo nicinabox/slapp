@@ -51,20 +51,29 @@ class Package
   end
 
   def description
-    parsed_description.gsub(/(?<!\n)\n /, " ")
-                      .gsub(/\n\n\s/, "\n\n")
-                      .strip
+    original_description
+      .gsub(/(\S)\n(\S)/, '\1 \2')
+      .gsub(/\n\n\s/, "\n\n")
+      .strip
   end
 
   def original_description
-    parsed_description.gsub(/\n\n /, "\n\n")
-                      .gsub(/\n /, "\n")
-                      .strip
+    if name == 'aalib'
+      parsed_description.split("\n").map { |line|
+        line[0..34].strip
+      }.join("\n").strip
+    else
+      parsed_description
+        .gsub(/\n\n /, "\n\n")
+        .gsub(/\n /, "\n")
+        .strip
+    end
   end
 
   def summary
-    parsed_description.slice(/^(.+)\n/)
-                      .strip
+    parsed_description
+      .slice(/^(.+)\n/)
+      .strip
   end
 
   def to_hash
