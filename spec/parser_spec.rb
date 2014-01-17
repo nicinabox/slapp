@@ -55,22 +55,25 @@ describe Parser do
       desc = <<-desc
 ConsoleKit (user, login, and seat tracking framework)
 
+ConsoleKit is a framework for defining and tracking users, login sessions, and seats.
+
+Homepage: http://freedesktop.org/wiki/Software/ConsoleKit
+      desc
+
+      @package[:description].should == desc.strip
+    end
+
+    it "parses the original description" do
+      desc = <<-desc
+ConsoleKit (user, login, and seat tracking framework)
+
 ConsoleKit is a framework for defining and tracking users, login
 sessions, and seats.
 
 Homepage: http://freedesktop.org/wiki/Software/ConsoleKit
       desc
 
-      parsed_desc = <<-desc
-ConsoleKit (user, login, and seat tracking framework)
-
-ConsoleKit is a framework for defining and tracking users, login sessions, and seats.
-
-Homepage: http://freedesktop.org/wiki/Software/ConsoleKit
-      desc
-
-      @package[:description][:raw].should == desc.strip
-      @package[:description][:parsed].should == parsed_desc.strip
+      @package[:original_description].should == desc.strip
     end
 
     it "parses the summary" do
