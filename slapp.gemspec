@@ -19,8 +19,16 @@ Gem::Specification.new do |s|
   s.files = [
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
     "README.md",
+    "Rakefile",
     "VERSION",
+    "lib/slapp.rb",
+    "lib/slapp/helpers.rb",
+    "lib/slapp/package.rb",
+    "lib/slapp/parser.rb",
+    "slapp.gemspec",
     "spec/parser_spec.rb",
     "spec/spec_helper.rb",
     "spec/support/PACKAGES.TXT"
