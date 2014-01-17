@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require './version'
+require 'slapp/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "."
-  spec.version       = .::VERSION
+  spec.name          = "slapp"
+  spec.version       = Slapp::VERSION
   spec.authors       = ["Nic Aitch"]
   spec.email         = ["nic@nicinabox.com"]
   spec.description   = %q{Parse Slackware PACKAGES.TXT with ease}
