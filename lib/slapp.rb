@@ -1,4 +1,4 @@
-require 'version'
+require 'slapp/version'
 
 require 'slapp/helpers'
 require 'slapp/package'
