@@ -1,12 +1,12 @@
-# .
+# Slapp
 
-TODO: Write a gem description
+SLAckware Package Parser
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem '.'
+    gem 'slapp'
 
 And then execute:
 
@@ -14,11 +14,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install .
+    $ gem install slapp
 
 ## Usage
 
-TODO: Write usage instructions here
+    parser = Slapp::Parser.new('path/to/PACKAGES.TXT')
+    parser.packages # Like JSON
 
 ## Contributing
 
