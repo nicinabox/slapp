@@ -26,23 +26,6 @@ class Parser
     raw_packages.map { |pkg|
       package = Package.new pkg.first
       package.to_hash
-
-      # package = name_parts(pkg.first)
-
-      # location = location_regex.match(pkg.first)
-      # size = pkg.first.scan(size_regex).flatten
-      # description = description_regex.match(pkg.first)
-
-      # desc = description[1].gsub(/^#{package[:name]}:/, "")
-      # summary = desc.slice(/^(.+)\n/).strip
-
-      # raw_desc = desc.gsub(/\n\n /, "\n\n").gsub(/\n /, "\n").strip
-
-      # if package[:name] == 'aalib'
-      #   parsed_desc = ''
-      # else
-      #   parsed_desc = desc.gsub(/(?<!\n)\n /, " ").gsub(/\n\n\s/, "\n\n").strip
-      # end
     }
   end
 
