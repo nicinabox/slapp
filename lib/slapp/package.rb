@@ -1,7 +1,5 @@
-require 'helpers'
-
-class Package
-  include Helpers
+class Slapp::Package
+  include Slapp::Helpers
 
   attr_accessor :data
 

@@ -1,8 +1,8 @@
-require 'parser'
+require 'slapp/parser'
 
-describe Parser do
+describe Slapp::Parser do
   before do
-    @parser = Parser.new('spec/support/PACKAGES.TXT')
+    @parser = Slapp::Parser.new('spec/support/PACKAGES.TXT')
   end
 
   it "parses the total size (uncompressed)" do

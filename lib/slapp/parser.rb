@@ -1,8 +1,6 @@
-require 'helpers'
-require 'package'
+class Slapp::Parser
+  include Slapp::Helpers
 
-class Parser
-  include Helpers
   attr_accessor :lines, :contents
 
   def initialize(path)
@@ -24,24 +22,12 @@ class Parser
 
   def packages
     raw_packages.map { |pkg|
-      package = Package.new pkg.first
+      package = Slapp::Package.new pkg.first
       package.to_hash
     }
   end
 
 private
-
-  def name_parts(pkg)
-    name = name_regex.match(pkg)
-
-    {
-      filename: name[1],
-      name: name[2],
-      version: name[3],
-      build: name[4],
-      arch: name[5]
-    }
-  end
 
   def raw_packages
     contents.scan(package_regex)
