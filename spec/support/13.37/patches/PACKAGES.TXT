@@ -1,0 +1,1109 @@
+
+PACKAGES.TXT;  Tue Jan 14 03:57:42 UTC 2014
+
+This file provides details on the Slackware packages found
+in the ./patches/ directory.
+
+Total size of all packages (compressed):  377 MB
+Total size of all packages (uncompressed):  1748 MB
+
+
+PACKAGE NAME:  apr-1.4.5-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  196 K
+PACKAGE SIZE (uncompressed):  920 K
+PACKAGE DESCRIPTION:
+apr: apr (Apache Portable Runtime)
+apr:
+apr: The mission of the Apache Portable Runtime (APR) is to provide a
+apr: free library of C data structures and routines, forming a system
+apr: portability layer to as many operating systems as possible.
+apr:
+
+PACKAGE NAME:  apr-util-1.4.1-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  108 K
+PACKAGE SIZE (uncompressed):  470 K
+PACKAGE DESCRIPTION:
+apr-util: apr-util (Apache Portable Runtime utilities)
+apr-util:
+apr-util: The mission of the Apache Portable Runtime (APR) is to provide a
+apr-util: free library of C data structures and routines, forming a system
+apr-util: portability layer to as many operating systems as possible.
+apr-util:
+apr-util: This package contains additional utility interfaces for APR;
+apr-util: including support for XML, LDAP, database interfaces, URI parsing,
+apr-util: and more.
+apr-util:
+
+PACKAGE NAME:  bind-9.8.5_P2-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1904 K
+PACKAGE SIZE (uncompressed):  7210 K
+PACKAGE DESCRIPTION:
+bind: bind (DNS server and utilities)
+bind:
+bind: The named daemon and support utilities such as dig, host, and
+bind: nslookup.  Sample configuration files for running a simple caching
+bind: nameserver are included.  Documentation for advanced name server
+bind: setup can be found in /usr/doc/bind-9.x.x/.
+bind:
+
+PACKAGE NAME:  ca-certificates-20130906-noarch-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  148 K
+PACKAGE SIZE (uncompressed):  420 K
+PACKAGE DESCRIPTION:
+ca-certificates: ca-certificates (PEM Files of CA Certificates)
+ca-certificates:
+ca-certificates: This package includes PEM files of CA certificates to allow SSL-based
+ca-certificates: applications to check for the authenticity of SSL connections.
+ca-certificates:
+ca-certificates: Homepage: http://packages.qa.debian.org/c/ca-certificates.html
+ca-certificates:
+
+PACKAGE NAME:  coreutils-8.15-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  2072 K
+PACKAGE SIZE (uncompressed):  12890 K
+PACKAGE DESCRIPTION:
+coreutils: coreutils (core GNU utilities)
+coreutils:
+coreutils: These are the GNU core utilities, the basic command line programs
+coreutils: such as 'mkdir', 'ls', and 'rm' that are needed for the system to
+coreutils: run.  This package is the union of the GNU fileutils, sh-utils, and
+coreutils: textutils packages.  Most of these programs have significant
+coreutils: advantages over their Unix counterparts, such as greater speed,
+coreutils: additional options, and fewer arbitrary limits.
+coreutils:
+
+PACKAGE NAME:  curl-7.21.4-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  736 K
+PACKAGE SIZE (uncompressed):  2100 K
+PACKAGE DESCRIPTION:
+curl: curl (command line URL data transfer tool)
+curl:
+curl: Curl is a command line tool for transferring data specified with URL
+curl: syntax.  The command is designed to work without user interaction or
+curl: any kind of interactivity.   Curl offers a busload of useful tricks
+curl: like proxy support, user authentication, ftp upload, HTTP post,  SSL
+curl: (https:) connections, cookies, file transfer resume and more.
+curl:
+curl: libcurl is a library that Curl uses to do its job. It is readily
+curl: available to be used by your software, too.
+curl:
+
+PACKAGE NAME:  dhcp-4.2.5_P1-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  976 K
+PACKAGE SIZE (uncompressed):  5790 K
+PACKAGE DESCRIPTION:
+dhcp: dhcp (DHCP server and client utilities)
+dhcp:
+dhcp: This package provides the ISC's DHCP utilities, including both a
+dhcp: server and client.  The DHCP protocol allows a host to contact a
+dhcp: central server which maintains a list of IP addresses which may be
+dhcp: assigned on one or more subnets.   A DHCP client may request an
+dhcp: address from this pool, and then use it temporarily for communication
+dhcp: on the network.   The DHCP protocol also provides a mechanism whereby
+dhcp: a client can learn important details about the network to which it is
+dhcp: attached, such as the location of a default router or name server.
+dhcp:
+
+PACKAGE NAME:  dhcpcd-5.2.12-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  56 K
+PACKAGE SIZE (uncompressed):  140 K
+PACKAGE DESCRIPTION:
+dhcpcd: dhcpcd (DHCP client daemon)
+dhcpcd:
+dhcpcd: The DHCP client program dhcpcd is used to connect to a network by
+dhcpcd: contacting a DHCP server.  dhcpcd gets an IP address and other
+dhcpcd: information from a corresponding DHCP server, configures the network
+dhcpcd: interface automatically, and tries to renew the lease time according
+dhcpcd: to RFC2131 or RFC1541 depending on the command line option.
+dhcpcd:
+
+PACKAGE NAME:  emacs-23.3-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  32880 K
+PACKAGE SIZE (uncompressed):  92670 K
+PACKAGE DESCRIPTION:
+emacs: emacs (GNU Emacs)
+emacs:
+emacs: Emacs is the extensible, customizable, self-documenting real-time
+emacs: display editor. If this seems to be a bit of a mouthful, an
+emacs: easier explanation is that Emacs is a text editor and more. At
+emacs: its core is an interpreter for Emacs Lisp, a dialect of the Lisp
+emacs: programming language with extensions to support text editing.
+emacs: This version supports X.
+emacs:
+emacs: http://www.gnu.org/software/emacs/
+emacs:
+
+PACKAGE NAME:  fetchmail-6.3.20-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  572 K
+PACKAGE SIZE (uncompressed):  2740 K
+PACKAGE DESCRIPTION:
+fetchmail: fetchmail (mail retrieval and forwarding utility)
+fetchmail:
+fetchmail: fetchmail is a mail retrieval and forwarding utility.  It fetches
+fetchmail: mail from a POP, IMAP, or ETRN-capable remote mailserver and forwards
+fetchmail: it to your local (client) machine's delivery system.  You can then
+fetchmail: handle the retrieved mail using normal mail user agents such as elm,
+fetchmail: pine, or mutt.  The fetchmail utility can be run in a daemon mode to
+fetchmail: repeatedly poll one or more systems at a specified interval.
+fetchmail:
+fetchmail: fetchmail is probably not secure.
+fetchmail:
+
+PACKAGE NAME:  file-5.09-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  216 K
+PACKAGE SIZE (uncompressed):  960 K
+PACKAGE DESCRIPTION:
+file: file (a utility to determine file type)
+file:
+file: This is Ian F. Darwin's 'file' utility, used to identify files.
+file: Christos Zoulas has been file's maintainer since 1994.
+file:
+file: Home FTP site:  ftp://ftp.astron.com/pub/file/
+file:
+
+PACKAGE NAME:  freetype-2.4.11-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  416 K
+PACKAGE SIZE (uncompressed):  1880 K
+PACKAGE DESCRIPTION:
+freetype: freetype (A Free, High-Quality, and Portable Font Engine)
+freetype:
+freetype: The FreeType engine is a free and portable TrueType font rendering
+freetype: engine.  It has been developed to provide TrueType support to a
+freetype: great variety of platforms and environments.
+freetype:
+
+PACKAGE NAME:  ghostscript-9.02-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  11268 K
+PACKAGE SIZE (uncompressed):  43700 K
+PACKAGE DESCRIPTION:
+ghostscript: ghostscript (GPL Ghostscript)
+ghostscript:
+ghostscript: GPL Ghostscript is an interpreter of Adobe Systems' PostScript(tm)
+ghostscript: and Portable Document Format (PDF) languages.  Ghostscript is an
+ghostscript: essential part of the printing subsystem, taking PostScript output
+ghostscript: from applications and converting it into an appropriate printer or
+ghostscript: display format.  Ghostscript supports many printers directly, and
+ghostscript: more are supported through add-on packages.
+ghostscript:
+
+PACKAGE NAME:  glibc-2.13-i486-7_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  11188 K
+PACKAGE SIZE (uncompressed):  133940 K
+PACKAGE DESCRIPTION:
+glibc: glibc (GNU C libraries)
+glibc:
+glibc: This package contains the GNU C libraries and header files.  The GNU
+glibc: C library was written originally by Roland McGrath, and is currently
+glibc: maintained by Ulrich Drepper.  Some parts of the library were
+glibc: contributed or worked on by other people.
+glibc:
+glibc: You'll need this package to compile programs.
+glibc:
+
+PACKAGE NAME:  glibc-i18n-2.13-i486-7_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  6644 K
+PACKAGE SIZE (uncompressed):  111210 K
+PACKAGE DESCRIPTION:
+glibc-i18n: glibc-i18n (locale files from glibc)
+glibc-i18n:
+glibc-i18n: These files go in /usr/lib/locale and /usr/share/i18n/ to provide
+glibc-i18n: internationalization support.  You'll need this package unless you
+glibc-i18n: will be using US English only.
+glibc-i18n:
+
+PACKAGE NAME:  glibc-profile-2.13-i486-7_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  856 K
+PACKAGE SIZE (uncompressed):  4430 K
+PACKAGE DESCRIPTION:
+glibc-profile: glibc-profile (GNU C libraries with profiling support)
+glibc-profile:
+glibc-profile: This package contains static versions of the GNU C libraries with 
+glibc-profile: support for profiling binaries using gprof.  gprof calculates how
+glibc-profile: much time a program spends in each routine which can suggest where
+glibc-profile: to concentrate efforts to improve performance.
+glibc-profile:
+glibc-profile: See the gprof man page for more details.
+glibc-profile:
+
+PACKAGE NAME:  glibc-solibs-2.13-i486-7_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  2232 K
+PACKAGE SIZE (uncompressed):  9910 K
+PACKAGE DESCRIPTION:
+glibc-solibs: glibc-solibs (shared GNU C libraries)
+glibc-solibs:
+glibc-solibs: This package contains the shared libraries, binaries, and support
+glibc-solibs: files required to run most Linux applications linked with glibc.
+glibc-solibs:
+
+PACKAGE NAME:  glibc-zoneinfo-2013d-noarch-7_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  156 K
+PACKAGE SIZE (uncompressed):  3210 K
+PACKAGE DESCRIPTION:
+glibc-zoneinfo: glibc-zoneinfo (timezone database)
+glibc-zoneinfo:
+glibc-zoneinfo: This package allows you to configure your time zone.
+glibc-zoneinfo:
+glibc-zoneinfo: This timezone database comes from the tzdata and tzcode packages by
+glibc-zoneinfo: Arthur David Olson et.al.  The latest version and more information
+glibc-zoneinfo: may be found at ftp://elsie.nci.nih.gov/pub/
+glibc-zoneinfo:
+glibc-zoneinfo: Use the timeconfig utility to set your local time zone.
+glibc-zoneinfo:
+
+PACKAGE NAME:  gnupg-1.4.16-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1048 K
+PACKAGE SIZE (uncompressed):  5030 K
+PACKAGE DESCRIPTION:
+gnupg: gnupg (The GNU Privacy Guard)
+gnupg:
+gnupg: GnuPG is GNU's tool for secure communication and data storage.  It can
+gnupg: be used to encrypt data and to create digital signatures.  It includes
+gnupg: an advanced key management facility and is compliant with the proposed
+gnupg: OpenPGP Internet standard as described in RFC2440.
+gnupg:
+
+PACKAGE NAME:  gnupg2-2.0.22-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1556 K
+PACKAGE SIZE (uncompressed):  7880 K
+PACKAGE DESCRIPTION:
+gnupg2: GnuPG2 (The GNU Privacy Guard version 2.x)
+gnupg2:
+gnupg2: GnuPG is GNU's tool for secure communication and data storage.  It can
+gnupg2: be used to encrypt data and to create digital signatures.  It includes
+gnupg2: an advanced key management facility and is compliant with the proposed
+gnupg2: OpenPGP Internet standard as described in RFC2440 and the S/MIME
+gnupg2: standard as described by several RFCs.
+gnupg2:
+gnupg2: GnuPG 2.0 is the stable version of GnuPG integrating support for
+gnupg2: OpenPGP and S/MIME.  It does not conflict with an installed 1.4.x
+gnupg2: OpenPGP-only version.
+
+PACKAGE NAME:  gnutls-2.10.5-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1492 K
+PACKAGE SIZE (uncompressed):  3590 K
+PACKAGE DESCRIPTION:
+gnutls: gnutls (GNU TLS library)
+gnutls:
+gnutls: This is a TLS (Transport Layer Security) 1.0 and SSL (Secure Sockets
+gnutls: Layer) 3.0 implementation.  In brief, GnuTLS can be described as a
+gnutls: library which offers an API to access secure communication protocols.
+gnutls: These protocols provide privacy over insecure lines, and were designed
+gnutls: to prevent eavesdropping, tampering, or message forgery.
+gnutls:
+gnutls: Homepage: http://www.gnu.org/software/gnutls/
+gnutls:
+
+PACKAGE NAME:  hplip-3.11.3a-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  12232 K
+PACKAGE SIZE (uncompressed):  22520 K
+PACKAGE DESCRIPTION:
+hplip: hplip (HP print/scan/fax support)
+hplip:
+hplip: HPLIP is an HP developed solution for printing, scanning, and faxing
+hplip: with HP inkjet and laser based printers in Linux.  The HPLIP project
+hplip: provides printing support for more than 1400 HP printer models,
+hplip: including Deskjet, Officejet, Photosmart, PSC (Print Scan Copy),
+hplip: Business Inkjet, LaserJet, and LaserJet MFP.
+hplip:
+hplip: For more information, see: http://hplipopensource.com
+hplip:
+
+PACKAGE NAME:  httpd-2.2.25-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1620 K
+PACKAGE SIZE (uncompressed):  7740 K
+PACKAGE DESCRIPTION:
+httpd: httpd (The Apache HTTP Server)
+httpd:
+httpd: Apache is an HTTP server designed as a plug-in replacement for the
+httpd: NCSA HTTP server.  It fixes numerous bugs in the NCSA server and
+httpd: includes many frequently requested new features, and has an API which
+httpd: allows it to be extended to meet users' needs more easily.
+httpd:
+httpd: Apache is the most popular web server in the known universe; over
+httpd: half of the servers on the Internet are running Apache or one of
+httpd: its variants.
+httpd:
+
+PACKAGE NAME:  kernel-firmware-20130512git-noarch-1.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  19340 K
+PACKAGE SIZE (uncompressed):  50970 K
+PACKAGE DESCRIPTION:
+kernel-firmware: kernel-firmware (Firmware for the kernel)
+kernel-firmware:
+kernel-firmware: These are firmware files for the Linux kernel.
+kernel-firmware:
+kernel-firmware: You'll need these to use certain hardware drivers with Linux.
+kernel-firmware:
+kernel-firmware: Upstream site:  
+kernel-firmware:
+kernel-firmware: git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+kernel-firmware:
+
+PACKAGE NAME:  kernel-generic-2.6.37.6-i486-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  2892 K
+PACKAGE SIZE (uncompressed):  4100 K
+PACKAGE DESCRIPTION:
+kernel-generic: kernel-generic (a general purpose single processor Linux kernel)
+kernel-generic:
+kernel-generic: This is a Linux kernel with built-in support for most IDE controllers.
+kernel-generic: For filesystem support, or if you need to load support for a SCSI or
+kernel-generic: other controller, then you'll need to load one or more kernel modules
+kernel-generic: using an initial ramdisk, or initrd.  For more information about
+kernel-generic: creating an initrd, see the README.initrd file in the /boot directory.
+kernel-generic:
+kernel-generic: This kernel contains a patch to fix CVE-2013-2094.
+kernel-generic:
+
+PACKAGE NAME:  kernel-generic-smp-2.6.37.6_smp-i686-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  3024 K
+PACKAGE SIZE (uncompressed):  4260 K
+PACKAGE DESCRIPTION:
+kernel-generic-smp: kernel-generic-smp (a general purpose SMP Linux kernel)
+kernel-generic-smp:
+kernel-generic-smp: This is a Linux kernel with built-in support for most disk
+kernel-generic-smp: controllers.  To use filesystems, or to load support for a SCSI or
+kernel-generic-smp: other controller, then you'll need to load one or more kernel
+kernel-generic-smp: modules using an initial ramdisk, or initrd.  For more information
+kernel-generic-smp: about creating an initrd, see the README.initrd file in the /boot
+kernel-generic-smp: directory.
+kernel-generic-smp:
+kernel-generic-smp: SMP is "Symmetric multiprocessing", or multiple CPU/core support.
+kernel-generic-smp: This kernel contains a patch to fix CVE-2013-2094.
+
+PACKAGE NAME:  kernel-headers-2.6.37.6-x86-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3/linux-2.6.37.6-nosmp-sdk
+PACKAGE SIZE (compressed):  548 K
+PACKAGE SIZE (uncompressed):  2880 K
+PACKAGE DESCRIPTION:
+kernel-headers: kernel-headers (Linux kernel include files)
+kernel-headers:
+kernel-headers: These are the include files from the Linux kernel.
+kernel-headers:
+kernel-headers: You'll need these to compile most system software for Linux.
+kernel-headers:
+
+PACKAGE NAME:  kernel-headers-2.6.37.6_smp-x86-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  548 K
+PACKAGE SIZE (uncompressed):  2880 K
+PACKAGE DESCRIPTION:
+kernel-headers: kernel-headers (Linux kernel include files)
+kernel-headers:
+kernel-headers: These are the include files from the Linux kernel.
+kernel-headers:
+kernel-headers: You'll need these to compile most system software for Linux.
+kernel-headers:
+
+PACKAGE NAME:  kernel-huge-2.6.37.6-i486-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  5804 K
+PACKAGE SIZE (uncompressed):  7600 K
+PACKAGE DESCRIPTION:
+kernel-huge: kernel-huge (a fully-loaded single processor Linux kernel)
+kernel-huge:
+kernel-huge: This is a Linux kernel with built-in support for most disk controllers
+kernel-huge: and filesystems.  If you're looking for a more stripped down kernel
+kernel-huge: (this one contains everything but the kitchen sink ;-), then install
+kernel-huge: the kernel-generic from the /boot directory along with an initrd to
+kernel-huge: load support for your boot device and filesystem.  For instructions
+kernel-huge: on the initrd, see README.initrd in the /boot directory.
+kernel-huge:
+kernel-huge: This kernel contains a patch to fix CVE-2013-2094.
+kernel-huge:
+
+PACKAGE NAME:  kernel-huge-smp-2.6.37.6_smp-i686-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  6008 K
+PACKAGE SIZE (uncompressed):  7830 K
+PACKAGE DESCRIPTION:
+kernel-huge-smp: kernel-huge-smp (a fully-loaded SMP Linux kernel)
+kernel-huge-smp:
+kernel-huge-smp: This is a Linux kernel with built-in support for most disk
+kernel-huge-smp: controllers.  If you're looking for a more stripped down kernel
+kernel-huge-smp: (this one contains everything but the kitchen sink ;-), then install
+kernel-huge-smp: the kernel-generic-smp in the /boot directory along with an initrd to
+kernel-huge-smp: load support for your boot device and filesystem.  For instructions
+kernel-huge-smp: on the initrd, see README.initrd in the /boot directory.
+kernel-huge-smp:
+kernel-huge-smp: SMP is "Symmetric multiprocessing", or multiple CPU/core support.
+kernel-huge-smp: This kernel contains a patch to fix CVE-2013-2094.
+
+PACKAGE NAME:  kernel-modules-2.6.37.6-i486-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  19636 K
+PACKAGE SIZE (uncompressed):  75290 K
+PACKAGE DESCRIPTION:
+kernel-modules: kernel-modules (single CPU Linux kernel modules)
+kernel-modules:
+kernel-modules: A kernel module is a piece of object code that can be dynamically
+kernel-modules: loaded into the Linux kernel to provide new kernel functions.  Most of
+kernel-modules: these modules provide support for devices such as CD-ROM drives, tape
+kernel-modules: drives, and ethernet cards.  You can choose which modules to load by
+kernel-modules: editing /etc/rc.d/rc.modules.
+kernel-modules:
+
+PACKAGE NAME:  kernel-modules-smp-2.6.37.6_smp-i686-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  19944 K
+PACKAGE SIZE (uncompressed):  76560 K
+PACKAGE DESCRIPTION:
+kernel-modules-smp: kernel-modules (SMP Linux kernel modules)
+kernel-modules-smp:
+kernel-modules-smp: A kernel module is a piece of object code that can be dynamically
+kernel-modules-smp: loaded into the Linux kernel to provide new kernel functions.  Most of
+kernel-modules-smp: these modules provide support for devices such as CD-ROM drives, tape
+kernel-modules-smp: drives, and ethernet cards.  You can choose which modules to load by
+kernel-modules-smp: editing /etc/rc.d/rc.modules.
+kernel-modules-smp:
+
+PACKAGE NAME:  kernel-source-2.6.37.6_smp-noarch-3.txz
+PACKAGE LOCATION:  ./patches/packages/linux-2.6.37.6-3
+PACKAGE SIZE (compressed):  62664 K
+PACKAGE SIZE (uncompressed):  425650 K
+PACKAGE DESCRIPTION:
+kernel-source: kernel-source (Linux kernel source)
+kernel-source:
+kernel-source: Source code for Linus Torvalds' Linux kernel.
+kernel-source:
+kernel-source: This is the complete source code for the Linux kernel.
+kernel-source:
+kernel-source: Added 2 upstream patches:
+kernel-source:   Initialize mmu_cr4_features during boot (fix resume from hibernate)
+kernel-source:   A patch to fix CVE-2013-2094.
+kernel-source:
+
+PACKAGE NAME:  libXfont-1.4.7-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  128 K
+PACKAGE SIZE (uncompressed):  350 K
+PACKAGE DESCRIPTION:
+libXfont: libXfont (library for legacy X11 font system)
+libXfont:
+libXfont: libXfont provides the core of the legacy X11 font system, handling the
+libXfont: index files (fonts.dir, fonts.alias, fonts.scale), the various font
+libXfont: file formats, and rasterizing them.   It is used by the X servers, the
+libXfont: X Font Server (xfs), and some font utilities (bdftopcf for instance),
+libXfont: but should not be used by normal X11 clients.  X11 clients access fonts
+libXfont: via either the new API's in libXft, or the legacy API's in libX11.
+libXfont:
+
+PACKAGE NAME:  libexif-0.6.21-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  316 K
+PACKAGE SIZE (uncompressed):  2050 K
+PACKAGE DESCRIPTION:
+libexif: libexif (Exchangeable Image File Format library)
+libexif:
+libexif: EXIF stands for Exchangeable Image File Format, which is a format used
+libexif: to store extra information in images such as the JPEG files produced
+libexif: by digital cameras.  The libexif library allows programs such as 
+libexif: gthumb to parse, edit, and save EXIF data.
+libexif:
+
+PACKAGE NAME:  libgcrypt-1.5.3-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  400 K
+PACKAGE SIZE (uncompressed):  1550 K
+PACKAGE DESCRIPTION:
+libgcrypt: libgcrypt (General purpose crypto library)
+libgcrypt:
+libgcrypt: Libgcrypt is a general purpose crypto library based on the code 
+libgcrypt: used in GnuPG. 
+libgcrypt:
+
+PACKAGE NAME:  libgpg-error-1.11-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  84 K
+PACKAGE SIZE (uncompressed):  460 K
+PACKAGE DESCRIPTION:
+libgpg-error: libgpg-error (GnuPG Error Definitions Library)
+libgpg-error:
+libgpg-error: This is a library that defines common error values for all GnuPG
+libgpg-error: components.  Among these are GPG, GPGSM, GPGME, GPG-Agent, 
+libgpg-error: libgcrypt, Libksba, DirMngr, Pinentry, SmartCard Daemon, and more.
+libgpg-error:
+
+PACKAGE NAME:  libiodbc-3.52.8-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  240 K
+PACKAGE SIZE (uncompressed):  1070 K
+PACKAGE DESCRIPTION:
+libiodbc: libiodbc (Independent Open DataBase Connectivity)
+libiodbc:
+libiodbc: iODBC is the acronym for Independent Open DataBase Connectivity,
+libiodbc: an Open Source platform independent implementation of both the ODBC
+libiodbc: and X/Open specifications.  It allows for developing solutions
+libiodbc: that are language, platform and database independent.
+libiodbc:
+libiodbc: Homepage: http://iodbc.org/
+libiodbc:
+
+PACKAGE NAME:  libjpeg-v8a-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  220 K
+PACKAGE SIZE (uncompressed):  670 K
+PACKAGE DESCRIPTION:
+libjpeg: libjpeg (Independent JPEG Group's JPEG software)
+libjpeg:
+libjpeg: Software to implement JPEG image compression and decompression.  JPEG
+libjpeg: (pronounced 'jay-peg') is a standardized compression method for
+libjpeg: full-color and gray-scale images.  JPEG is intended for compressing
+libjpeg: 'real-world' scenes; cartoons and other non-realistic images are not
+libjpeg: its strong suit.  JPEG is lossy, however, on typical images of
+libjpeg: real-world scenes, very good compression levels can be obtained with
+libjpeg: no visible change, and amazingly high compression levels are possible
+libjpeg: if you can tolerate a low-quality image.
+libjpeg:
+
+PACKAGE NAME:  libpng-1.4.12-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  516 K
+PACKAGE SIZE (uncompressed):  2890 K
+PACKAGE DESCRIPTION:
+libpng: libpng (Portable Network Graphics library)
+libpng:
+libpng: PNG (Portable Network Graphics) is an extensible file format for the
+libpng: lossless, portable, well-compressed storage of raster images.  PNG
+libpng: provides a patent-free replacement for GIF and can also replace many
+libpng: common uses of TIFF.  Indexed-color, grayscale, and truecolor images
+libpng: are supported, plus an optional alpha channel.  Sample depths range
+libpng: from 1 to 16 bits.
+libpng:
+
+PACKAGE NAME:  libtiff-3.9.7-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  484 K
+PACKAGE SIZE (uncompressed):  1560 K
+PACKAGE DESCRIPTION:
+libtiff: libtiff (a library for reading and writing TIFF files)
+libtiff:
+libtiff: This package provides support for the Tag Image File Format (TIFF),
+libtiff: a widely used format for storing image data.  Included is the libtiff
+libtiff: library (for reading and writing TIFF files), and a collection of
+libtiff: tools for working with TIFF images.
+libtiff:
+
+PACKAGE NAME:  libxml2-2.7.8-i486-5_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1504 K
+PACKAGE SIZE (uncompressed):  10230 K
+PACKAGE DESCRIPTION:
+libxml2: libxml2 (XML parser library)
+libxml2:
+libxml2: Libxml2 is the XML C parser library and toolkit.  XML itself is a
+libxml2: metalanguage to design markup languages  -- i.e. a text language where
+libxml2: structures are added to the content using extra "markup" information
+libxml2: enclosed between angle brackets.  HTML is the most well-known markup
+libxml2: language.  Though the library is written in C, a variety of language
+libxml2: bindings make it available in other environments.
+libxml2:
+
+PACKAGE NAME:  libyaml-0.1.4-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  104 K
+PACKAGE SIZE (uncompressed):  1120 K
+PACKAGE DESCRIPTION:
+libyaml: libyaml (YAML parser, written in C)
+libyaml:
+libyaml: YAML Ain't Markup Language. It is a human friendly data serialization 
+libyaml: standard for all programming languages.
+libyaml:
+libyaml: Homepage: http://pyyaml.org/wiki/LibYAML
+libyaml:
+
+PACKAGE NAME:  lm_sensors-3.3.4-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  128 K
+PACKAGE SIZE (uncompressed):  520 K
+PACKAGE DESCRIPTION:
+lm_sensors: lm_sensors (hardware monitoring package)
+lm_sensors:
+lm_sensors: lm_sensors provides tools for monitoring the temperatures, voltages,
+lm_sensors: and fans of Linux systems with hardware monitoring devices.  Included
+lm_sensors: are text-based tools for sensor reporting, and a library for sensors
+lm_sensors: access called libsensors.  It also contains tools for sensor hardware
+lm_sensors: identification and I2C bus probing.
+lm_sensors:
+lm_sensors: IMPORTANT NOTE:  If you have a Thinkpad, please read the warnings in
+lm_sensors: the README.thinkpad file.  lm_sensors has been known to cause damage
+lm_sensors: to some Thinkpads.
+
+PACKAGE NAME:  make-3.82-i486-4_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  388 K
+PACKAGE SIZE (uncompressed):  1260 K
+PACKAGE DESCRIPTION:
+make: make (GNU make utility to maintain groups of programs)
+make:
+make: This is the GNU implementation of make, which was written by Richard
+make: Stallman and Roland McGrath.  The purpose of the make utility is to
+make: determine automatically which pieces of a large program need to be 
+make: recompiled, and issue the commands to recompile them.  
+make:
+make: This is needed to compile just about any major C program, including
+make: the Linux kernel.
+make:
+
+PACKAGE NAME:  mozilla-firefox-17.0.11esr-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  17348 K
+PACKAGE SIZE (uncompressed):  40280 K
+PACKAGE DESCRIPTION:
+mozilla-firefox: mozilla-firefox (Mozilla Firefox Web browser)
+mozilla-firefox:
+mozilla-firefox: This project is a redesign of the Mozilla browser component written
+mozilla-firefox: using the XUL user interface language.  Firefox empowers you to
+mozilla-firefox: browse faster, more safely and more efficiently than with any other
+mozilla-firefox: browser.
+mozilla-firefox:
+mozilla-firefox: Visit the Mozilla Firefox project online:
+mozilla-firefox:   http://www.mozilla.org/projects/firefox/
+mozilla-firefox:
+
+PACKAGE NAME:  mozilla-thunderbird-17.0.11esr-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  28100 K
+PACKAGE SIZE (uncompressed):  80820 K
+PACKAGE DESCRIPTION:
+mozilla-thunderbird: mozilla-thunderbird (Mozilla Thunderbird mail application)
+mozilla-thunderbird:
+mozilla-thunderbird: Mozilla Thunderbird is a redesign of the Mozilla mail component
+mozilla-thunderbird: written using the XUL user interface language.  Thunderbird makes
+mozilla-thunderbird: emailing safer, faster, and easier than ever before with the
+mozilla-thunderbird: industry's best implementations of features such as intelligent spam
+mozilla-thunderbird: filters, built-in RSS reader, quick search, and much more.
+mozilla-thunderbird:
+mozilla-thunderbird: Visit the Mozilla Thunderbird project online:
+mozilla-thunderbird:   http://www.mozilla.org/projects/thunderbird/
+mozilla-thunderbird:
+
+PACKAGE NAME:  mysql-5.1.67-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  8660 K
+PACKAGE SIZE (uncompressed):  42170 K
+PACKAGE DESCRIPTION:
+mysql: mysql (SQL-based relational database server)
+mysql:
+mysql: MySQL is a fast, multi-threaded, multi-user, and robust SQL
+mysql: (Structured Query Language) database server.  It comes with a nice API
+mysql: which makes it easy to integrate into other applications.
+mysql:
+mysql: The home page for MySQL is http://www.mysql.com/
+mysql:
+
+PACKAGE NAME:  openssh-5.9p1-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  512 K
+PACKAGE SIZE (uncompressed):  2200 K
+PACKAGE DESCRIPTION:
+openssh: openssh (Secure Shell daemon and clients)
+openssh:
+openssh: ssh (Secure Shell) is a program for logging into a remote machine and
+openssh: for executing commands on a remote machine.  It is intended to replace
+openssh: rlogin and rsh, and provide secure encrypted communications between
+openssh: two untrusted hosts over an insecure network.  sshd (SSH Daemon) is
+openssh: the daemon program for ssh.  OpenSSH is based on the last free version
+openssh: of Tatu Ylonen's SSH, further enhanced and cleaned up by Aaron
+openssh: Campbell, Bob Beck, Markus Friedl, Niels Provos, Theo de Raadt, and
+openssh: Dug Song.  It has a homepage at http://www.openssh.com/
+openssh:
+
+PACKAGE NAME:  openssl-0.9.8y-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  2288 K
+PACKAGE SIZE (uncompressed):  9280 K
+PACKAGE DESCRIPTION:
+openssl: openssl (Secure Sockets Layer toolkit)
+openssl:
+openssl: The OpenSSL certificate management tool and the shared libraries that
+openssl: provide various encryption and decryption algorithms and protocols.
+openssl:
+openssl: This product includes software developed by the OpenSSL Project for
+openssl: use in the OpenSSL Toolkit (http://www.openssl.org).  This product
+openssl: includes cryptographic software written by Eric Young
+openssl: (eay@cryptsoft.com).  This product includes software written by Tim
+openssl: Hudson (tjh@cryptsoft.com).
+openssl:
+
+PACKAGE NAME:  openssl-solibs-0.9.8y-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  684 K
+PACKAGE SIZE (uncompressed):  2190 K
+PACKAGE DESCRIPTION:
+openssl-solibs: openssl-solibs (OpenSSL shared libraries)
+openssl-solibs:
+openssl-solibs: These shared libraries provide encryption routines required by
+openssl-solibs: programs such as openssh.  They are also used by KDE's Konqueror web
+openssl-solibs: browser to provide secure web connections.
+openssl-solibs:
+openssl-solibs: This product includes software developed by the OpenSSL Project for
+openssl-solibs: use in the OpenSSL Toolkit (http://www.openssl.org).  This product
+openssl-solibs: includes cryptographic software written by Eric Young
+openssl-solibs: (eay@cryptsoft.com).  This product includes software written by Tim
+openssl-solibs: Hudson (tjh@cryptsoft.com).
+
+PACKAGE NAME:  patch-2.7-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  100 K
+PACKAGE SIZE (uncompressed):  240 K
+PACKAGE DESCRIPTION:
+patch: patch (apply a diff file to an original file or files)
+patch:
+patch: Patch is a utility used to apply diffs (or patches) to files, which
+patch: are usually source code.
+patch:
+patch: Larry Wall wrote the original version of patch.  Paul Eggert removed
+patch: patch's arbitrary limits; added support for binary files, setting
+patch: file times, and deleting files; and made it conform better to POSIX.
+patch: Other  contributors include Wayne Davison, who added unidiff support,
+patch: and David MacKenzie, who added configuration and backup support.
+patch:
+
+PACKAGE NAME:  perl-5.12.3-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  13952 K
+PACKAGE SIZE (uncompressed):  56090 K
+PACKAGE DESCRIPTION:
+perl: perl (Practical Extraction and Report Language)
+perl:
+perl: Larry Wall's "Practical Extraction and Report Language".  Perl is a
+perl: language optimized for scanning arbitrary text files, extracting
+perl: information from those text files, and printing reports based on that
+perl: information.  It's also a good language for many system management
+perl: tasks.  The language is intended to be practical (easy to use,
+perl: efficient, complete) rather than beautiful (tiny, elegant, minimal).
+perl:
+
+PACKAGE NAME:  php-5.3.27-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  5416 K
+PACKAGE SIZE (uncompressed):  32050 K
+PACKAGE DESCRIPTION:
+php: php (HTML-embedded scripting language)
+php:
+php: PHP is an HTML-embedded scripting language.  It shares syntax
+php: characteristics with C, Java, and Perl.  The primary objective behind
+php: this language is to make a fast and easy-to-use scripting language
+php: for dynamic web sites.
+php:
+php: More information can be found online at http://www.php.net/
+php:
+
+PACKAGE NAME:  pidgin-2.10.7-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  7236 K
+PACKAGE SIZE (uncompressed):  36510 K
+PACKAGE DESCRIPTION:
+pidgin: pidgin (GTK+ instant messaging program)
+pidgin:
+pidgin: Pidgin allows you to talk to anyone using a variety of messaging
+pidgin: protocols, including AIM (Oscar and TOC), ICQ, IRC, Yahoo!, MSN
+pidgin: Messenger, Jabber, Gadu-Gadu, Napster, and Zephyr.  These protocols
+pidgin: are implemented using a modular, easy to use design.  To use a
+pidgin: protocol, just load the plugin for it.
+pidgin:
+pidgin: For more info, see:  http://www.pidgin.im
+pidgin:
+
+PACKAGE NAME:  proftpd-1.3.4a-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  796 K
+PACKAGE SIZE (uncompressed):  3820 K
+PACKAGE DESCRIPTION:
+proftpd: proftpd (FTP server daemon)
+proftpd:
+proftpd: ProFTPD is the Professional File Transfer Protocol (FTP) server
+proftpd: daemon.  ProFTPD grew out of the desire to have a secure and
+proftpd: configurable FTP server, and out of a significant admiration of the
+proftpd: Apache web server.
+proftpd:
+
+PACKAGE NAME:  ruby-1.9.3_p484-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  4420 K
+PACKAGE SIZE (uncompressed):  35210 K
+PACKAGE DESCRIPTION:
+ruby: ruby (Interpreted object-oriented scripting language)
+ruby:
+ruby: Ruby is an interpreted scripting language for quick and easy
+ruby: object-oriented programming.  It has many features to process text
+ruby: files and to do system management tasks (as in Perl).  It is simple,
+ruby: straight-forward, and extensible.
+ruby:
+ruby: Visit the Ruby project online at http://www.ruby-lang.org/
+ruby:
+
+PACKAGE NAME:  samba-3.5.22-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  20372 K
+PACKAGE SIZE (uncompressed):  133290 K
+PACKAGE DESCRIPTION:
+samba: samba (SMB/CIFS file and print server)
+samba:
+samba: Samba is an SMB/CIFS file and print server for SMB and CIFS clients.
+samba: It allows you to make file space or printers on a Samba host
+samba: available to SMB/CIFS clients (such as PCs running Windows).
+samba:
+samba: If you have any Windows file servers, you may be able to replace them
+samba: or supplement them with Samba.  One of Samba's big strengths is
+samba: integration, so you can use it to tie together your Linux hosts and
+samba: Windows PC clients.
+samba:
+
+PACKAGE NAME:  sdl-1.2.14-i486-6_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  628 K
+PACKAGE SIZE (uncompressed):  3020 K
+PACKAGE DESCRIPTION:
+sdl: sdl (Simple DirectMedia Layer library)
+sdl:
+sdl: This is the Simple DirectMedia Layer, a generic API that provides low
+sdl: level access to audio, keyboard, mouse, joystick, 3D hardware via
+sdl: OpenGL, and 2D framebuffer across multiple platforms.
+sdl:
+sdl: SDL links against alsa-lib, arts, audiofile, esound, and the X11
+sdl: libraries.  Make sure all of these are installed if you're planning to
+sdl: use SDL (a full installation will cover all of the prerequisites).
+sdl:
+
+PACKAGE NAME:  seamonkey-2.17.1-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  27992 K
+PACKAGE SIZE (uncompressed):  93100 K
+PACKAGE DESCRIPTION:
+seamonkey: SeaMonkey (an open-source web browser suite)
+seamonkey:
+seamonkey: The SeaMonkey browser suite.  SeaMonkey features a state-of-the-art
+seamonkey: web browser and powerful email client, as well as a WYSIWYG web page
+seamonkey: composer and a feature-rich IRC chat client.
+seamonkey:
+seamonkey: Visit the SeaMonkey project at this URL:
+seamonkey:   http://www.mozilla.org/projects/seamonkey/
+seamonkey:
+
+PACKAGE NAME:  seamonkey-solibs-2.17.1-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  2560 K
+PACKAGE SIZE (uncompressed):  7880 K
+PACKAGE DESCRIPTION:
+seamonkey-solibs: seamonkey-solibs (Shared libraries from Seamonkey)
+seamonkey-solibs:
+seamonkey-solibs: This package contains a subset of the shared libraries from Seamonkey
+seamonkey-solibs: to provide runtime support for programs that require nss, nspr, and
+seamonkey-solibs: js.  These libraries are used in programs like RPM and gxine, and can
+seamonkey-solibs: be used in others.  This package is built from the Seamonkey sources
+seamonkey-solibs: and is provided as a standalone runtime package for people who do not
+seamonkey-solibs: want to install the entire seamonkey package (as for server use).
+seamonkey-solibs:
+seamonkey-solibs: This package is runtime only.  The include files and other files for
+seamonkey-solibs: development can be found in the seamonkey package.
+
+PACKAGE NAME:  slocate-3.1-i486-4_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  28 K
+PACKAGE SIZE (uncompressed):  90 K
+PACKAGE DESCRIPTION:
+slocate: slocate (Secure Locate)
+slocate:
+slocate: Slocate is an enhanced version of locate, a command to help you locate
+slocate: files on the system.  Like the original version of locate, Slocate
+slocate: maintains a database of files on the system, updating it nightly.
+slocate: Unlike the original, Slocate indexes every file on the machine rather
+slocate: than only the ones that can be seen by everyone.  The "secure" part of
+slocate: slocate is that it will only return matches if the user is allowed to
+slocate: see the files.
+slocate:
+
+PACKAGE NAME:  subversion-1.6.21-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  3044 K
+PACKAGE SIZE (uncompressed):  16960 K
+PACKAGE DESCRIPTION:
+subversion: subversion (a version control system)
+subversion:
+subversion: Subversion is a version control system which allows you to keep old
+subversion: versions of files and directories (usually source code), and keep a
+subversion: log of who, when, and why changes occurred, similar to other such
+subversion: systems like CVS, RCS or SCCS.  Subversion keeps all the information
+subversion: to permit extracting previous versions of those files at any time.
+subversion:
+subversion: For more information about the Subversion project, visit:
+subversion:   http://subversion.apache.org
+subversion:
+
+PACKAGE NAME:  sudo-1.7.10p7-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  172 K
+PACKAGE SIZE (uncompressed):  510 K
+PACKAGE DESCRIPTION:
+sudo: sudo (give limited root privileges to certain users)
+sudo:
+sudo: 'sudo' is a command that allows users to execute some commands as 
+sudo: root.  The /etc/sudoers file (edited with 'visudo') specifies which
+sudo: users have access to sudo and which commands they can run.  'sudo' 
+sudo: logs all its activities to /var/log/ so the system administrator
+sudo: can keep an eye on things.
+sudo:
+
+PACKAGE NAME:  t1lib-5.1.2-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  488 K
+PACKAGE SIZE (uncompressed):  1110 K
+PACKAGE DESCRIPTION:
+t1lib: t1lib (Type 1 font rasterizer library)
+t1lib:
+t1lib: t1lib is a library distributed under the GNU General Public Library
+t1lib: License for generating character and string glyphs from Adobe Type 1
+t1lib: fonts under UNIX.  t1lib uses most of the code of the X11 rasterizer
+t1lib: donated by IBM to the X11 project.
+t1lib:
+
+PACKAGE NAME:  vsftpd-2.3.5-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  116 K
+PACKAGE SIZE (uncompressed):  340 K
+PACKAGE DESCRIPTION:
+vsftpd: vsftpd (Very Secure FTP Daemon)
+vsftpd:
+vsftpd: vsftpd is an FTP server, or daemon. The 'vs' stands for Very Secure.
+vsftpd: Obviously this is not a guarantee, but a reflection that the entire
+vsftpd: codebase was written with security in mind, and carefully designed to
+vsftpd: be resilient to attack (as well as extremely fast and scalable).
+vsftpd:
+vsftpd: The vsftpd homepage is http://vsftpd.beasts.org/
+vsftpd:
+vsftpd: The Very Secure FTP Daemon was written by Chris Evans.
+vsftpd:
+
+PACKAGE NAME:  wicd-1.7.2.4-i486-2_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  344 K
+PACKAGE SIZE (uncompressed):  1960 K
+PACKAGE DESCRIPTION:
+wicd: wicd (network manager for linux)
+wicd:
+wicd: wicd is a wired and wireless network manager for Linux.
+wicd: Some features include:
+wicd: - Ability to connect to wired and wireless networks
+wicd: - Profiles for each wireless network and wired network
+wicd: - Many encryption schemes, some of which include WEP/WPA/WPA2
+wicd: - Compatible with wireless-tools 
+wicd:
+wicd: Homepage: http://wicd.net
+wicd:
+
+PACKAGE NAME:  xorg-server-1.9.5-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1684 K
+PACKAGE SIZE (uncompressed):  8170 K
+PACKAGE DESCRIPTION:
+xorg-server: xorg-server (The Xorg server, the core of the X Window System)
+xorg-server:
+xorg-server: Xorg is a full featured X server that was originally designed for UNIX
+xorg-server: and UNIX-like operating systems running on Intel x86 hardware.  It now
+xorg-server: runs on a wider range of hardware and OS platforms.  This work was
+xorg-server: derived by the X.Org Foundation from the XFree86 Project's XFree86
+xorg-server: 4.4rc2  release.  The XFree86 release was originally derived from X386
+xorg-server: 1.2 by Thomas Roell which was contributed to X11R5 by Snitily Graphics
+xorg-server: Consulting Service.
+xorg-server:
+xorg-server: The home page for the X project is:  http://www.x.org
+
+PACKAGE NAME:  xorg-server-xephyr-1.9.5-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  668 K
+PACKAGE SIZE (uncompressed):  1850 K
+PACKAGE DESCRIPTION:
+xorg-server-xephyr: xorg-server-xephyr (Improved nested X server/client)
+xorg-server-xephyr:
+xorg-server-xephyr: Xephyr is a nested X-Client like Xnest, but with some additional
+xorg-server-xephyr: features like XRender support. 
+xorg-server-xephyr:
+
+PACKAGE NAME:  xorg-server-xnest-1.9.5-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  516 K
+PACKAGE SIZE (uncompressed):  1470 K
+PACKAGE DESCRIPTION:
+xorg-server-xnest: xorg-server-xnest (a nested X server)
+xorg-server-xnest:
+xorg-server-xnest: Xnest is an experimental nested server for X that acts as both a 
+xorg-server-xnest: client and a server.  Xnest is a client of the real server which
+xorg-server-xnest: manages windows and graphics requests on its behalf.  Xnest is a
+xorg-server-xnest: server to its own clients.  Xnest manages windows and graphics 
+xorg-server-xnest: requests on their behalf.  To these clients Xnest appears to be a 
+xorg-server-xnest: conventional server.
+xorg-server-xnest:
+
+PACKAGE NAME:  xorg-server-xvfb-1.9.5-i486-3_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  600 K
+PACKAGE SIZE (uncompressed):  1670 K
+PACKAGE DESCRIPTION:
+xorg-server-xvfb: xorg-server-xvfb (virtual framebuffer X server)
+xorg-server-xvfb:
+xorg-server-xvfb: Xvfb is an X server that can run on machines with no display hardware
+xorg-server-xvfb: and no physical input devices.  It emulates a dumb framebuffer using 
+xorg-server-xvfb: virtual memory.  The primary use of this server is intended to be 
+xorg-server-xvfb: server testing.  The mfb or cfb code for any depth can be exercised
+xorg-server-xvfb: with this server without the need for real hardware that supports the
+xorg-server-xvfb: desired depths.  A secondary use is testing clients against unusual
+xorg-server-xvfb: depths and screen configurations.
+xorg-server-xvfb:
+
+PACKAGE NAME:  xpdf-3.03-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1732 K
+PACKAGE SIZE (uncompressed):  11830 K
+PACKAGE DESCRIPTION:
+xpdf: xpdf (PDF viewer for X)
+xpdf:
+xpdf: Xpdf is a viewer for Portable Document Format (PDF) files.
+xpdf:
+xpdf: xpdf was written by Derek B. Noonburg.
+xpdf:
+
+PACKAGE NAME:  yasm-1.2.0-i486-1_slack13.37.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  444 K
+PACKAGE SIZE (uncompressed):  2920 K
+PACKAGE DESCRIPTION:
+yasm: yasm (complete rewrite of the NASM assembler)
+yasm:
+yasm: Yasm is a complete rewrite of the NASM assembler under the "new" BSD
+yasm: License (some portions are under other licenses, see COPYING for
+yasm: details).  Yasm currently supports the x86 and AMD64 instruction sets,
+yasm: accepts NASM and GAS assembler syntaxes, outputs binary, ELF32, ELF64,
+yasm: 32 and 64-bit Mach-O, RDOFF2, COFF, Win32, and Win64 object formats,
+yasm: and generates source debugging information in STABS, DWARF 2, and
+yasm: CodeView 8 formats.
+yasm:
+yasm: yasm home: http://www.tortall.net/projects/yasm/
+
+
