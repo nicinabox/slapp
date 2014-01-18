@@ -4,7 +4,7 @@ class Slapp::Parser
   attr_accessor :lines, :contents
 
   def initialize(path)
-    @lines = File.readlines(path)
+    @lines = File.readlines(path, :encoding => 'ISO-8859-1')
     @contents = @lines.join('')
   end
 

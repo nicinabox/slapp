@@ -2,7 +2,7 @@ require 'slapp/parser'
 
 describe Slapp::Parser do
   before do
-    @parser = Slapp::Parser.new('spec/support/PACKAGES.TXT')
+    @parser = Slapp::Parser.new('spec/support/13.37/slackware/PACKAGES.TXT')
   end
 
   it "parses the total size (uncompressed)" do
