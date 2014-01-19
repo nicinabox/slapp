@@ -2,7 +2,7 @@ require 'slapp/parser'
 
 describe Slapp::Parser do
   before do
-    @parser = Slapp::Parser.new('spec/support/13.37/slackware/PACKAGES.TXT')
+    @parser = Slapp::Parser.new('spec/support/13.37/slackware/PACKAGES.TXT', '13.37')
   end
 
   it "parses the total size (uncompressed)" do
@@ -41,7 +41,7 @@ describe Slapp::Parser do
     end
 
     it "parses the path" do
-      @package[:path].should == '/slackware/l/ConsoleKit-0.4.3-i486-1.txz'
+      @package[:path].should == '/slackware/slackware-13.37/slackware/l/ConsoleKit-0.4.3-i486-1.txz'
     end
 
     it "parses the size" do

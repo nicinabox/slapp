@@ -1,11 +1,12 @@
 class Slapp::Parser
   include Slapp::Helpers
 
-  attr_accessor :lines, :contents
+  attr_accessor :lines, :contents, :slackware_version
 
-  def initialize(path)
+  def initialize(path, slackware_version)
     @lines = File.readlines(path, :encoding => 'ISO-8859-1')
     @contents = @lines.join('')
+    @slackware_version = slackware_version
   end
 
   def total_size_uncompressed
@@ -22,7 +23,7 @@ class Slapp::Parser
 
   def packages
     raw_packages.map { |pkg|
-      package = Slapp::Package.new pkg.first
+      package = Slapp::Package.new pkg.first, slackware_version
       package.to_hash
     }
   end

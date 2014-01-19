@@ -3,8 +3,9 @@ class Slapp::Package
 
   attr_accessor :data
 
-  def initialize(data)
+  def initialize(data, slackware_version)
     @data = data
+    @slackware_version = slackware_version
 
     @name_match = regex('name').match(data)
     @location_match = regex('location').match(data)
@@ -33,7 +34,7 @@ class Slapp::Package
   end
 
   def path
-    File.join location, filename
+    File.join "/slackware/slackware-#{@slackware_version}", location, filename
   end
 
   def build
