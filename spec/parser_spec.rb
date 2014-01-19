@@ -25,7 +25,7 @@ describe Slapp::Parser do
     end
 
     it "parses the filename" do
-      @package[:filename].should == 'ConsoleKit-0.4.3-i486-1.txz'
+      @package[:file_name].should == 'ConsoleKit-0.4.3-i486-1.txz'
     end
 
     it "parses the name" do

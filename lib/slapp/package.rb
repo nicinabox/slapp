@@ -14,19 +14,23 @@ class Slapp::Package
   end
 
   def name
+    @name_match[3]
+  end
+
+  def package_name
     @name_match[2]
   end
 
-  def filename
+  def file_name
     @name_match[1]
   end
 
   def version
-    @name_match[3]
+    @name_match[4]
   end
 
   def arch
-    @name_match[4]
+    @name_match[5]
   end
 
   def location
@@ -34,7 +38,7 @@ class Slapp::Package
   end
 
   def path
-    File.join "/slackware/slackware-#{@slackware_version}", location, filename
+    File.join "/slackware/slackware-#{@slackware_version}", location, file_name
   end
 
   def build
@@ -77,7 +81,8 @@ class Slapp::Package
 
   def to_hash
     {
-      filename: filename,
+      file_name: file_name,
+      package_name: package_name,
       name: name,
       version: version,
       arch: arch,
@@ -106,7 +111,7 @@ private
 
   def regexes
     {
-      name: /PACKAGE NAME:\s+((.+)-(.+)-(.+)-(.+)\.t\wz)/,
+      name: /PACKAGE NAME:\s+(((.+)-(.+)-(.+)-(.+))\.t\wz)/,
       location: /PACKAGE LOCATION:\s+\.([\S]+)/,
       size: /PACKAGE SIZE\s+\(\w+\):\s+(.+)/,
       description: /PACKAGE DESCRIPTION:\s+(.+)/m
