@@ -23,8 +23,7 @@ class Slapp::Parser
 
   def packages
     raw_packages.map { |pkg|
-      package = Slapp::Package.new pkg.first, slackware_version
-      package.to_hash
+      Slapp::Package.new pkg.first, slackware_version
     }
   end
 

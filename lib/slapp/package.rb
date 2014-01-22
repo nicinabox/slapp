@@ -17,11 +17,11 @@ class Slapp::Package
     @name_match[3]
   end
 
-  def package_name
+  def file_name
     @name_match[2]
   end
 
-  def file_name
+  def package_name
     @name_match[1]
   end
 
@@ -33,16 +33,16 @@ class Slapp::Package
     @name_match[5]
   end
 
+  def build
+    @name_match[6]
+  end
+
   def location
     @location_match[1]
   end
 
   def path
-    File.join "/slackware/slackware-#{@slackware_version}", location, file_name
-  end
-
-  def build
-    @name_match[5]
+    File.join "/slackware/slackware-#{@slackware_version}", location, package_name
   end
 
   def size_uncompressed
@@ -80,22 +80,9 @@ class Slapp::Package
   end
 
   def to_hash
-    {
-      file_name: file_name,
-      package_name: package_name,
-      name: name,
-      version: version,
-      arch: arch,
-      build: build,
-      size: {
-        compressed: size_compressed,
-        uncompressed: size_uncompressed
-      },
-      location: location,
-      path: path,
-      description: description,
-      original_description: original_description,
-      summary: summary
+    methods = [:name, :file_name, :package_name, :version, :arch, :build, :location, :path, :size_uncompressed, :size_compressed, :description, :original_description, :summary]
+    methods.each_with_object({}) { |m, hash|
+      hash[m] = self.send(m)
     }
   end
 
