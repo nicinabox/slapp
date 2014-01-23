@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
     parser = Slapp::Parser.new('path/to/PACKAGES.TXT')
-    parser.packages # Like JSON
+    parser.packages
 
 ## Contributing
 
