@@ -1,0 +1,266 @@
+
+PACKAGES.TXT;  Tue Jan 14 04:11:25 UTC 2014
+
+This file provides details on the Slackware packages found
+in the ./patches/ directory.
+
+Total size of all packages (compressed):  156 MB
+Total size of all packages (uncompressed):  625 MB
+
+
+PACKAGE NAME:  gnupg-1.4.16-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1108 K
+PACKAGE SIZE (uncompressed):  5210 K
+PACKAGE DESCRIPTION:
+gnupg: gnupg (The GNU Privacy Guard)
+gnupg:
+gnupg: GnuPG is GNU's tool for secure communication and data storage.  It can
+gnupg: be used to encrypt data and to create digital signatures.  It includes
+gnupg: an advanced key management facility and is compliant with the proposed
+gnupg: OpenPGP Internet standard as described in RFC2440.
+gnupg:
+
+PACKAGE NAME:  libXfont-1.4.7-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  132 K
+PACKAGE SIZE (uncompressed):  380 K
+PACKAGE DESCRIPTION:
+libXfont: libXfont (library for legacy X11 font system)
+libXfont:
+libXfont: libXfont provides the core of the legacy X11 font system, handling the
+libXfont: index files (fonts.dir, fonts.alias, fonts.scale), the various font
+libXfont: file formats, and rasterizing them.   It is used by the X servers, the
+libXfont: X Font Server (xfs), and some font utilities (bdftopcf for instance),
+libXfont: but should not be used by normal X11 clients.  X11 clients access fonts
+libXfont: via either the new API's in libXft, or the legacy API's in libX11.
+libXfont:
+
+PACKAGE NAME:  libiodbc-3.52.8-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  260 K
+PACKAGE SIZE (uncompressed):  1130 K
+PACKAGE DESCRIPTION:
+libiodbc: libiodbc (Independent Open DataBase Connectivity)
+libiodbc:
+libiodbc: iODBC is the acronym for Independent Open DataBase Connectivity,
+libiodbc: an Open Source platform independent implementation of both the ODBC
+libiodbc: and X/Open specifications.  It allows for developing solutions
+libiodbc: that are language, platform and database independent.
+libiodbc:
+libiodbc: Homepage: http://iodbc.org/
+libiodbc:
+
+PACKAGE NAME:  libjpeg-v8a-x86_64-2_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  180 K
+PACKAGE SIZE (uncompressed):  780 K
+PACKAGE DESCRIPTION:
+libjpeg: libjpeg (Independent JPEG Group's JPEG software)
+libjpeg:
+libjpeg: Software to implement JPEG image compression and decompression.  JPEG
+libjpeg: (pronounced 'jay-peg') is a standardized compression method for
+libjpeg: full-color and gray-scale images.  JPEG is intended for compressing
+libjpeg: 'real-world' scenes; cartoons and other non-realistic images are not
+libjpeg: its strong suit.  JPEG is lossy, however, on typical images of
+libjpeg: real-world scenes, very good compression levels can be obtained with
+libjpeg: no visible change, and amazingly high compression levels are possible
+libjpeg: if you can tolerate a low-quality image.
+libjpeg:
+
+PACKAGE NAME:  llvm-3.3-x86_64-3_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  47180 K
+PACKAGE SIZE (uncompressed):  233170 K
+PACKAGE DESCRIPTION:
+llvm: llvm (LLVM compiler toolkit)
+llvm:
+llvm: Low Level Virtual Machine is a toolkit for the construction of highly
+llvm: optimized compilers, optimizers, and runtime environments.
+llvm:
+llvm: This package also includes the clang frontend for the C family of
+llvm: languages:  C, C++, Objective-C, and Objective-C++
+llvm:
+llvm: Homepage: http://llvm.org/
+llvm:
+
+PACKAGE NAME:  mozilla-firefox-24.2.0esr-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  23520 K
+PACKAGE SIZE (uncompressed):  59480 K
+PACKAGE DESCRIPTION:
+mozilla-firefox: mozilla-firefox (Mozilla Firefox Web browser)
+mozilla-firefox:
+mozilla-firefox: This project is a redesign of the Mozilla browser component written
+mozilla-firefox: using the XUL user interface language.  Firefox empowers you to
+mozilla-firefox: browse faster, more safely and more efficiently than with any other
+mozilla-firefox: browser.
+mozilla-firefox:
+mozilla-firefox: Visit the Mozilla Firefox project online:
+mozilla-firefox:   http://www.mozilla.org/projects/firefox/
+mozilla-firefox:
+
+PACKAGE NAME:  mozilla-nss-3.15.3-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1588 K
+PACKAGE SIZE (uncompressed):  6380 K
+PACKAGE DESCRIPTION:
+mozilla-nss: mozilla-nss (Network Security Services)
+mozilla-nss:
+mozilla-nss: Network Security Services (NSS) is a set of libraries designed to 
+mozilla-nss: support cross-platform development of security-enabled client and
+mozilla-nss: server applications. Applications built with NSS can support
+mozilla-nss: SSL v2 and v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME,
+mozilla-nss: X.509 v3 certificates, and other security standards.
+mozilla-nss:
+mozilla-nss: Read http://www.mozilla.org/projects/security/pki/nss/overview.html
+mozilla-nss:
+
+PACKAGE NAME:  mozilla-thunderbird-24.2.0-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  24268 K
+PACKAGE SIZE (uncompressed):  63150 K
+PACKAGE DESCRIPTION:
+mozilla-thunderbird: mozilla-thunderbird (Mozilla Thunderbird mail application)
+mozilla-thunderbird:
+mozilla-thunderbird: Mozilla Thunderbird is a redesign of the Mozilla mail component
+mozilla-thunderbird: written using the XUL user interface language.  Thunderbird makes
+mozilla-thunderbird: emailing safer, faster, and easier than ever before with the
+mozilla-thunderbird: industry's best implementations of features such as intelligent spam
+mozilla-thunderbird: filters, built-in RSS reader, quick search, and much more.
+mozilla-thunderbird:
+mozilla-thunderbird: Visit the Mozilla Thunderbird project online:
+mozilla-thunderbird:   http://www.mozilla.org/projects/thunderbird/
+mozilla-thunderbird:
+
+PACKAGE NAME:  openssh-6.4p1-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  608 K
+PACKAGE SIZE (uncompressed):  2810 K
+PACKAGE DESCRIPTION:
+openssh: openssh (Secure Shell daemon and clients)
+openssh:
+openssh: ssh (Secure Shell) is a program for logging into a remote machine and
+openssh: for executing commands on a remote machine.  It is intended to replace
+openssh: rlogin and rsh, and provide secure encrypted communications between
+openssh: two untrusted hosts over an insecure network.  sshd (SSH Daemon) is
+openssh: the daemon program for ssh.  OpenSSH is based on the last free version
+openssh: of Tatu Ylonen's SSH, further enhanced and cleaned up by Aaron
+openssh: Campbell, Bob Beck, Markus Friedl, Niels Provos, Theo de Raadt, and
+openssh: Dug Song.  It has a homepage at http://www.openssh.com/
+openssh:
+
+PACKAGE NAME:  openssl-1.0.1f-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  2872 K
+PACKAGE SIZE (uncompressed):  12770 K
+PACKAGE DESCRIPTION:
+openssl: openssl (Secure Sockets Layer toolkit)
+openssl:
+openssl: The OpenSSL certificate management tool and the shared libraries that
+openssl: provide various encryption and decryption algorithms and protocols.
+openssl:
+openssl: This product includes software developed by the OpenSSL Project for
+openssl: use in the OpenSSL Toolkit (http://www.openssl.org).  This product
+openssl: includes cryptographic software written by Eric Young
+openssl: (eay@cryptsoft.com).  This product includes software written by Tim
+openssl: Hudson (tjh@cryptsoft.com).
+openssl:
+
+PACKAGE NAME:  openssl-solibs-1.0.1f-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1240 K
+PACKAGE SIZE (uncompressed):  5180 K
+PACKAGE DESCRIPTION:
+openssl-solibs: openssl-solibs (OpenSSL shared libraries)
+openssl-solibs:
+openssl-solibs: These shared libraries provide encryption routines required by
+openssl-solibs: programs such as openssh, bind, sendmail, and many others.
+openssl-solibs:
+openssl-solibs: This product includes software developed by the OpenSSL Project for
+openssl-solibs: use in the OpenSSL Toolkit (http://www.openssl.org).  This product
+openssl-solibs: includes cryptographic software written by Eric Young
+openssl-solibs: (eay@cryptsoft.com).  This product includes software written by Tim
+openssl-solibs: Hudson (tjh@cryptsoft.com).
+openssl-solibs:
+
+PACKAGE NAME:  php-5.4.24-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  8132 K
+PACKAGE SIZE (uncompressed):  45420 K
+PACKAGE DESCRIPTION:
+php: php (HTML-embedded scripting language)
+php:
+php: PHP is an HTML-embedded scripting language.  It shares syntax
+php: characteristics with C, Java, and Perl.  The primary objective behind
+php: this language is to make a fast and easy-to-use scripting language
+php: for dynamic web sites.
+php:
+php: More information can be found online at http://www.php.net/
+php:
+
+PACKAGE NAME:  ruby-1.9.3_p484-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  4600 K
+PACKAGE SIZE (uncompressed):  36540 K
+PACKAGE DESCRIPTION:
+ruby: ruby (Interpreted object-oriented scripting language)
+ruby:
+ruby: Ruby is an interpreted scripting language for quick and easy
+ruby: object-oriented programming.  It has many features to process text
+ruby: files and to do system management tasks (as in Perl).  It is simple,
+ruby: straight-forward, and extensible.
+ruby:
+ruby: Visit the Ruby project online at http://www.ruby-lang.org/
+ruby:
+
+PACKAGE NAME:  samba-4.1.4-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  9908 K
+PACKAGE SIZE (uncompressed):  54790 K
+PACKAGE DESCRIPTION:
+samba: samba (CIFS file and print server)
+samba:
+samba: Samba is a CIFS file and print server for CIFS clients.  It allows
+samba: you to make file space or printers on a Samba host available to CIFS
+samba: clients (such as PCs running Windows).
+samba:
+samba: If you have any Windows file servers, you may be able to replace them
+samba: or supplement them with Samba.  One of Samba's big strengths is
+samba: integration, so you can use it to tie together your Linux hosts and
+samba: Windows PC clients.
+samba:
+
+PACKAGE NAME:  seamonkey-2.23-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  33116 K
+PACKAGE SIZE (uncompressed):  109700 K
+PACKAGE DESCRIPTION:
+seamonkey: SeaMonkey (an open-source web browser suite)
+seamonkey:
+seamonkey: The SeaMonkey browser suite.  SeaMonkey features a state-of-the-art
+seamonkey: web browser and powerful email client, as well as a WYSIWYG web page
+seamonkey: composer and a feature-rich IRC chat client.
+seamonkey:
+seamonkey: Visit the SeaMonkey project at this URL:
+seamonkey:   http://www.mozilla.org/projects/seamonkey/
+seamonkey:
+
+PACKAGE NAME:  seamonkey-solibs-2.23-x86_64-1_slack14.1.txz
+PACKAGE LOCATION:  ./patches/packages
+PACKAGE SIZE (compressed):  1300 K
+PACKAGE SIZE (uncompressed):  3860 K
+PACKAGE DESCRIPTION:
+seamonkey-solibs: seamonkey-solibs (Shared libraries from Seamonkey)
+seamonkey-solibs:
+seamonkey-solibs: This package contains a subset of the shared libraries from Seamonkey
+seamonkey-solibs: to provide runtime support for various programs.
+seamonkey-solibs: This package is built from the Seamonkey sources and is provided
+seamonkey-solibs: as a standalone runtime package for people who do not want to install
+seamonkey-solibs: the entire seamonkey package (as for server use).
+seamonkey-solibs:
+seamonkey-solibs: This package is runtime only.  The include files and other files for
+seamonkey-solibs: development can be found in the seamonkey package.
+seamonkey-solibs:
+
+

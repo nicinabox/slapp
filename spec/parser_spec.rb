@@ -148,13 +148,17 @@ AA-lib is an ASCII art graphics library.  Internally, the AA-lib API is similar 
 
   describe 'supports 64 bit packages' do
     before(:each) do
-      @parser = Slapp::Parser.new('spec/support/slackware64-13.1/slackware/PACKAGES.TXT', '13.1')
+      @parser = Slapp::Parser.new('spec/support/slackware64-14.1/slackware/PACKAGES.TXT', '14.1')
+      @patches_parser = Slapp::Parser.new('spec/support/slackware64-14.1/patches/PACKAGES.TXT', '14.1')
+
       @package = @parser.packages.first
       @package_xtrans = @parser.packages.select { |p| p.name == 'xtrans' }.first
+
+      @patch_package = @patches_parser.packages.first
     end
 
     it ".version" do
-      @package.version.should == "20100129"
+      @package.version.should == "0.4.5"
     end
 
     it ".arch" do
@@ -162,8 +166,9 @@ AA-lib is an ASCII art graphics library.  Internally, the AA-lib API is similar 
     end
 
     it ".path" do
-      @package.path.should == "/slackware/slackware64-13.1/slackware64/l/ConsoleKit-20100129-x86_64-1.txz"
-      @package_xtrans.path.should == "/slackware/slackware64-13.1/slackware64/x/xtrans-1.2.5-noarch-1.txz"
+      @package.path.should == "/slackware/slackware64-14.1/slackware64/l/ConsoleKit-0.4.5-x86_64-1.txz"
+      @package_xtrans.path.should == "/slackware/slackware64-14.1/slackware64/x/xtrans-1.2.7-noarch-1.txz"
+      @patch_package.path.should == "/slackware/slackware64-14.1/patches/packages/gnupg-1.4.16-x86_64-1_slack14.1.txz"
     end
   end
 

@@ -91,7 +91,7 @@ class Slapp::Package
 private
 
   def x86_64?
-    location.include? 'slackware64'
+    location.include? 'slackware64' or arch == "x86_64"
   end
 
   def parsed_description
