@@ -42,7 +42,9 @@ class Slapp::Package
   end
 
   def path
-    File.join "/slackware/slackware-#{@slackware_version}", location, package_name
+    File.join "/slackware/slackware#{"64" if x86_64?}-#{@slackware_version}",
+              location,
+              package_name
   end
 
   def size_uncompressed
@@ -87,6 +89,10 @@ class Slapp::Package
   end
 
 private
+
+  def x86_64?
+    arch == "x86_64"
+  end
 
   def parsed_description
     @description_match[1].gsub(/^#{name}:/, "")

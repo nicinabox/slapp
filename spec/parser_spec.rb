@@ -146,4 +146,23 @@ AA-lib is an ASCII art graphics library.  Internally, the AA-lib API is similar 
     end
   end
 
+  describe 'supports 64 bit packages' do
+    before(:each) do
+      @parser = Slapp::Parser.new('spec/support/slackware64-13.1/slackware/PACKAGES.TXT', '13.1')
+      @package = @parser.packages.first
+    end
+
+    it ".version" do
+      @package.version.should == "20100129"
+    end
+
+    it ".arch" do
+      @package.arch.should == "x86_64"
+    end
+
+    it ".path" do
+      @package.path.should == "/slackware/slackware64-13.1/slackware64/l/ConsoleKit-20100129-x86_64-1.txz"
+    end
+  end
+
 end
